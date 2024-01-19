@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="description" content="Blueprint: A basic responsive product grid layout with comparison functionality" />
+<meta name="keywords" content="blueprint, template, html, css, javascript, grid, layout, effect, product comparison" />
+<meta name="author" content="Codrops" />
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<!-- Modernizr is used for flexbox fallback -->
+<script src="js/modernizr.custom.js"></script>
+<link rel="stylesheet" href="comparision.css">
+
+<!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://kit.fontawesome.com/b63f19595b.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- link swipers -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+  <script src="app.js"></script>
+  <link rel="icon" type="image/x-icon" href="images/my logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="./cart_and_products.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="icon" href="1.png">
+  <script src="./cart.js"></script>
+ 
+<title>Shine Utensils</title>
+</head>
+<body>
+<div id="loader">
+    
+</div>
+
+    <!-- Navbar Starts -->
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+  
+        <a class="navbar-brand" href="index.html" data-aos="slide-right" data-aos-delay="1000"><img src="./LOGO1.png" alt="" class="logo"></a>
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse justify-content-center" data-aos="slide-up" data-aos-delay="1000"
+        id="navbarNav">
+        <ul class="ani navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link1" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown2 dropdown">
+            <a class="nav-link1 responsive-bttn1  dropdown-toggle" href="#">
+              Brands
+            </a>
+            <ul class="ani dropdown1">
+                <li class="nav-link3"><a href="#" class="nav-link5">1.</a><a class="nav-link2" href="hawkins.html">Hawkins</a></li>
+                <li class="nav-link3"><a href="#" class="nav-link5">2.</a><a class="nav-link2" href="Pampered Chef.html">Pampered Chef</a></li>
+                <li class="nav-link3"><a href="#" class="nav-link5">3.</a><a class="nav-link2" href="Calphalon.html">Calphalon</a></li>
+                <li class="nav-link3"><a href="#" class="nav-link5">4.</a><a class="nav-link2" href="Joseph Joseph.html">Joseph Joseph</a></li>
+                <li class="nav-link3"><a href="#" class="nav-link5">5.</a><a class="nav-link2" href="All-Clad.html">All-Clad</a></li>
+              </ul>
+          </li>
+          <p>
+            <a class="nav-link1 responsive-bttn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample">
+              Brands
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <ul>
+                <li class="nav-link3"><a href="#" class="nav-link6">1.</a><a class="nav-link4" href="hawkins.html">Hawkins</a></li>
+                <li class="nav-link3"><a href="#" class="nav-link6">2.</a><a class="nav-link4" href="Pampered Chef.html">Pampered Chef</a></li>
+                <li class="nav-link3"><a href="#" class="nav-link6">3.</a><a class="nav-link4" href="Calphalon.html">Calphalon</a></li>
+                <li class="nav-link3"><a href="#" class="nav-link6">4.</a><a class="nav-link4" href="Joseph Joseph.html">Joseph Joseph</a></li>
+                <li class="nav-link3"><a href="#" class="nav-link6">5.</a><a class="nav-link4" href="All-Clad.html">All-Clad</a></li>
+              </ul>
+            </div>
+          </div>
+          <li class="nav-item dropdown2 dropdown">
+            <a class="nav-link1" href="comparision.html">
+              COMPARISION
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link1" href="about.html">About Us</a>
+          </li>
+        </ul>
+        <ul class="ani navbar-nav login-text">
+          <li class="nav-item">
+            <a class="nav-link1" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login / Signup</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <i class='bx bx-shopping-bag' id="cart-icon" data-quantity="0">
+              <span class="cart-quantity-display">0</span>
+            </i>
+          </li>
+        </ul>
+        <div class="cart">
+          <h2 class="card-title" style="color: white;">Your Cart</h2>
+           <!-- Content -->
+           <div class="cart-content">
+              
+           </div>
+           <!-- Total -->
+           <div class="total">
+              <div class="total-title">Total</div>
+              <div class="total-price">$0</div>
+            </div>
+             <!-- Buy Button -->
+             <button type="button" class="btn-buy">Pay Now</button>
+               <!-- Close Cart -->
+               <i class='bx bx-x' id="close-cart"></i>
+       </div>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content background-1">
+  
+        
+            <div class="modal-body">
+                  <div class="text-end">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form id="signupForm">
+                  <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input class="logininput" type="email" id="email" required>
+                    <label class="loginlabel" for="email">Email</label>
+                </div>
+                <div class="input-box">
+                  <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                  <input class="logininput" type="password" id="password" required minlength="8">
+                  <label class="loginlabel" for="password">Password</label>
+              </div>
+                         <div class="remember-forgot">
+                            <label class="loginlabel"><input type="checkbox"> Remember</label>
+                            <a href="#" class="logina">Forgot Password?</a>
+                        </div>
+                        <button type="submit" class="button1" onclick="showAlert1()">Login</button>
+                        <div class="register-link">
+                           <p class="loginp">Don' have an account? <a class="logina" href="#" data-bs-toggle="modal" data-bs-target="#signup">Register</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="signup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content  background-1">
+              
+              <div class="modal-body">
+                <div class="text-end">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <form id="signupForm">
+                <div class="input-box">
+                    <input class="logininput" type="text" id="fullName" required>
+                    <label class="loginlabel" for="fullName">Full Name</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input class="logininput" type="email" id="email" required>
+                    <label class="loginlabel" for="email">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="call"></ion-icon></span>
+                    <input class="logininput" type="tel" id="phoneNumber" required pattern="^03[0-9]{9}">
+                    <label class="loginlabel" for="phoneNumber">Phone Number</label>
+                </div>
+                <div class="input-box">
+                  <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                  <input class="logininput" type="password" id="password" required minlength="8">
+                  <label class="loginlabel" for="password">Password</label>
+              </div>
+              <div class="input-box">
+                  <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                  <input class="logininput" type="password" id="confirmPassword" required minlength="8">
+                  <label class="loginlabel" for="confirmPassword">Confirm Password</label>
+                  <p id="passwordMatchMessage"></p> 
+                  <!-- Display message for password match status -->
+              </div>
+                <button type="submit" class="button1" onclick="showAlert2()">Sign up</button>
+                <div class="register-link">
+                    <p class="loginp">Already have an account? <a class="logina" href="#" data-bs-toggle="modal" data-bs-target="#signup">Sign in</a></p>
+                </div>
+            </form>          
+              </div>
+          </div>
+      </div>
+    </div>
+    
+    <!-- Navbar Ends -->
+
+  <!-- Carousel Starts -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"> <!-- Change data-bs-ride value to "carousel" -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+      aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+      aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <!-- Carousel items... -->
+     <div class="carousel-item active" data-bs-interval="2000">
+        <img src="./22179e84-5fde-44ae-8446-225df396ca4e-transformed.webp" class="b-block w-100" alt="..." height="650">
+        
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://m.media-amazon.com/images/S/aplus-media/vc/51969f52-3e3e-4e60-98b7-88dda37b4905._CR0,0,970,300_PT0_SX970__.jpg" class="d-block w-100" alt="..." height="650">
+        
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://cdn.create.vista.com/api/media/small/192741640/stock-photo-flying-cutting-board-kitchen-utensils" class="d-block w-100" alt="..." height="650">
+        
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel Ends -->
+
+<!-- Compare basket -->
+<div class="compare-basket">
+  <button class="action action--button action--compare"><i class="fa fa-check"></i><span class="action__text">Compare</span></button>
+</div>
+<!-- Main view -->
+<div class="view">
+ <br><br>
+  <section class="grid">
+    <!-- Products -->
+    <div class="product">
+      <div class="product__info">
+        <img class="product__image" src="https://lancastercastiron.com/cdn/shop/files/DSC09345_grande.jpg?v=1702149636" alt="Product 1" />
+        <h3 class="product__title">Browning Strike Force Elite</h3>
+<span class="product__year extra highlight">&bull;Photo Trigger - 0.65s</span> 
+<span class="product__year extra highlight">&bull;Photo Recovery - 1.3s </span> 
+<span class="product__year extra highlight">&bull;Video Trigger - 1.04s </span> 
+<span class="product__year extra highlight">&bull;Video Recovery - 2.3s </span>
+<span class="product__year extra highlight">&#42;Battery Life - 7 months (Lithium batteries 35 day and 35 night) </span>         
+  <span class="product__year extra highlight">&#10004;Red Glow Infrared Flash</span>
+        <span class="product__region extra highlight"> &#10004;Photo Resolution - 10 Mpxl Resolution (Interpolated)</span>
+        <span class="product__varietal extra highlight">&#10004;Video- 1280 x 720 HD</span>
+        <span class="product__alcohol extra highlight">&#10004;External Power Jack - 12 Volt</span>
+         <span class="product__alcohol extra highlight">&#10004;Battery Type - 6 AA</span>
+<span class="product__alcohol extra highlight">&#10004;Time Lapse</span>
+         <span class="product__alcohol extra highlight">&#10004;Time Lapse mode + Motion Detect Images </span>  
+<span class="product__alcohol extra highlight">&#10004;Multi-Shot Mode up to 8 Images</span>
+<span class="product__alcohol extra highlight">&#x2717;PIR Settings</span>
+<span class="product__alcohol extra highlight">&#x2717;Flash Settings</span>
+<span class="product__alcohol extra highlight">&#x2717;Built in Viewer</span> 
+<span class="product__alcohol extra highlight">&#x2717;Passcode Lock</span> 
+<span class="product__alcohol extra highlight">&#x2717;Photo + Video</span>  
+<span class="product__alcohol extra highlight">&#x2717;Start Stop Time</span> 
+        <span class="product__price highlight">$139.95</span>
+        <button class="action action--button action--buy add-cart1" id="product200" data-product="Browning Strike Force Elite" data-price="3000" data-img="https://lancastercastiron.com/cdn/shop/files/DSC09345_grande.jpg?v=1702149636"><i class="fa fa-shopping-cart"></i><span class="action__text">Add to cart</span></button>
+      </div>
+      <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+    </div>
+    <div class="product">
+      <div class="product__info">
+        <img class="product__image" src="https://i5.walmartimages.com/asr/ddbfdf01-e2ce-47d8-bd56-0b5960dd48c4.a00df69c17077e8625859575a4acb02e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Product 2" />
+        <h3 class="product__title">Oil Stainless Steel Brushes</h3>
+<span class="product__year extra highlight">&bull;Photo Trigger - 0.65s</span> 
+<span class="product__year extra highlight">&bull;Photo Recovery - 1.5s </span> 
+<span class="product__year extra highlight">&bull;Video Trigger - 1.31s </span> 
+<span class="product__year extra highlight">&bull;Video Recovery - 1.9s  </span>
+<span class="product__year extra highlight">&#42;Battery Life - 7.1 Months (Lithium batteries 35 day and 35 night) </span>         
+                    <span class="product__year extra highlight">&#10004;No Glow Infrared Flash</span>
+        <span class="product__region extra highlight"> &#10004;Photo Resolution - 10 Mpxl Resolution (Interpolated)</span>
+        <span class="product__varietal extra highlight">&#10004;Video- 1280 x 720 HD</span>
+        <span class="product__alcohol extra highlight">&#10004;External Power Jack - 12 Volt</span>
+         <span class="product__alcohol extra highlight">&#10004;Battery Type - 6 AA</span>
+<span class="product__alcohol extra highlight">&#10004;Time Lapse</span>
+
+         <span class="product__alcohol extra highlight">&#10004;Time Lapse mode + Motion Detect Images </span>  
+<span class="product__alcohol extra highlight">&#10004;Multi-Shot Mode up to 8 Images</span>
+<span class="product__alcohol extra highlight">&#x2717;PIR Settings</span>
+<span class="product__alcohol extra highlight">&#x2717;Flash Settings</span>           
+<span class="product__alcohol extra highlight">&#x2717;Built in Viewer</span> 
+<span class="product__alcohol extra highlight">&#x2717;Passcode Lock</span> 
+<span class="product__alcohol extra highlight">&#x2717;Photo + Video</span>  
+<span class="product__alcohol extra highlight">&#x2717;Start Stop Time</span> 
+        <span class="product__price highlight">$149.95</span>
+        <button class="action action--button action--buy add-cart1" id="product201" data-product="Oil Stainless Steel Brushes" data-price="3000" data-img="https://i5.walmartimages.com/asr/ddbfdf01-e2ce-47d8-bd56-0b5960dd48c4.a00df69c17077e8625859575a4acb02e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"><i class="fa fa-shopping-cart"></i><span class="action__text">Add to cart</span></button>
+
+      </div>
+      <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+    </div>
+    <div class="product">
+      <div class="product__info">
+        <img class="product__image" src="https://media.kohlsimg.com/is/image/kohls/2273278" alt="Product 3" />
+        <h3 class="product__title">Small Cooking Utensils | Kohls</h3>
+<span class="product__year extra highlight">&bull;Photo Trigger - 1.11s </span> 
+<span class="product__year extra highlight">&bull;Photo Recovery - 1.4s </span> 
+<span class="product__year extra highlight">&bull;Video Trigger - 1.00s </span> 
+<span class="product__year extra highlight">&bull;Video Recovery - 1.6s </span>
+<span class="product__year extra highlight">&#42;Battery Life - 5.5 Months (Lithium batteries 35 day and 35 night) </span>           
+        <span class="product__year extra highlight">&#10004;Red Glow Infrared Flash</span>
+        <span class="product__region extra highlight"> &#10004;Photo Resolution - 10 Mpxl Resolution (Interpolated)</span>
+        <span class="product__varietal extra highlight">&#10004;Video- 1920 x 1080 HD</span>
+        <span class="product__alcohol extra highlight">&#10004;External Power Jack - 12 Volt</span>
+         <span class="product__alcohol extra highlight">&#10004;Battery Type - 8 AA</span>
+<span class="product__alcohol extra highlight">&#10004;Time Lapse</span>
+         <span class="product__alcohol extra highlight">&#10004;Time Lapse mode + Motion Detect Images </span>  
+<span class="product__alcohol extra highlight">&#10004;Multi-Shot Mode up to 8 Images</span>
+<span class="product__alcohol extra highlight">&#x2717;PIR Settings</span>
+<span class="product__alcohol extra highlight">&#x2717;Flash Settings</span>           
+<span class="product__alcohol extra highlight">&#10004;Built in Viewer</span> 
+<span class="product__alcohol extra highlight">&#x2717;Passcode Lock</span> 
+<span class="product__alcohol extra highlight">&#x2717;Photo + Video</span>  
+<span class="product__alcohol extra highlight">&#x2717;Start Stop Time</span> 
+        <span class="product__price highlight">$169.95</span>
+        <button class="action action--button action--buy add-cart1" id="product202" data-product="Small Cooking Utensils | Kohls" data-price="3000" data-img="https://media.kohlsimg.com/is/image/kohls/2273278"><i class="fa fa-shopping-cart"></i><span class="action__text">Add to cart</span></button>
+
+      </div>
+      <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+    </div>
+    <div class="product">
+      <div class="product__info">
+        <img class="product__image" src="https://www.greenpan.us/cdn/shop/files/CC006911-001-01-1200x1200-bd93c0f_aae30c31-169c-4143-ab84-05d28f4eda8c_1024x1024.jpg?v=1698269919" alt="Product 4" />
+        <h3 class="product__title">Platinum Silicone Utensil</h3>
+<span class="product__year extra highlight">&bull;Photo Trigger - 1.10s</span> 
+<span class="product__year extra highlight">&bull;Photo Recovery - 1.4s </span> 
+<span class="product__year extra highlight">&bull;Video Trigger - 0.94s </span> 
+<span class="product__year extra highlight">&bull;Video Recovery - 1.5s </span>
+<span class="product__year extra highlight">&#42;Battery Life - 5.2 Months (Lithium batteries 35 day and 35 night) </span>       
+                    <span class="product__year extra highlight">&#10004;No Glow Infrared Flash</span>
+        <span class="product__region extra highlight"> &#10004;Photo Resolution - 10 Mpxl Resolution (Interpolated)</span>
+        <span class="product__varietal extra highlight">&#10004;Video- 1920 x 1080 HD</span>
+        <span class="product__alcohol extra highlight">&#10004;External Power Jack - 12 Volt</span>
+         <span class="product__alcohol extra highlight">&#10004;Battery Type - 8 AA</span>           
+<span class="product__alcohol extra highlight">&#10004;Time Lapse</span>
+         <span class="product__alcohol extra highlight">&#10004;Time Lapse mode + Motion Detect Images </span>  
+<span class="product__alcohol extra highlight">&#10004;Multi-Shot Mode up to 8 Images</span>
+<span class="product__alcohol extra highlight">&#x2717;PIR Settings</span>
+<span class="product__alcohol extra highlight">&#x2717;Flash Settings</span>           
+<span class="product__alcohol extra highlight">&#10004;Built in Viewer</span> 
+<span class="product__alcohol extra highlight">&#x2717;Passcode Lock</span> 
+<span class="product__alcohol extra highlight">&#x2717;Photo + Video</span>  
+<span class="product__alcohol extra highlight">&#x2717;Start Stop Time</span> 
+        <span class="product__price highlight">$179.95</span>
+        <button class="action action--button action--buy add-cart1" id="product203" data-product="Platinum Silicone Utensil" data-price="3000" data-img="https://www.greenpan.us/cdn/shop/files/CC006911-001-01-1200x1200-bd93c0f_aae30c31-169c-4143-ab84-05d28f4eda8c_1024x1024.jpg?v=1698269919"><i class="fa fa-shopping-cart"></i><span class="action__text">Add to cart</span></button>
+
+      </div>
+      <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+    </div>
+    <div class="product">
+      <div class="product__info">
+        <img class="product__image" src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/c86d5be167f31ee5905f20f2e9badc89.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp" alt="Product 5" />
+        <h3 class="product__title">Silicone Utensil Set Kitchen Utensil </h3>
+<span class="product__year extra highlight">&bull;Photo Trigger - 0.13s</span> 
+<span class="product__year extra highlight">&bull;Photo Recovery - 0.98s </span> 
+<span class="product__year extra highlight">&bull;Video Trigger - 2.4s </span> 
+<span class="product__year extra highlight">&bull;Video Recovery - 5.0s </span>
+<span class="product__year extra highlight">&#42;Battery Life - 8.6 Months (Lithium batteries 35 day and 35 night) </span>          
+<span class="product__year extra highlight">&#10004;Red Glow Infrared Flash</span>
+        <span class="product__region extra highlight"> &#10004;Photo Resolution - 14 Mpxl Resolution (Interpolated)</span>
+        <span class="product__varietal extra highlight">&#10004;Video- 1920 x 1080 HD</span>
+        <span class="product__alcohol extra highlight">&#10004;External Power Jack - 6 Volt</span>
+         <span class="product__alcohol extra highlight">&#10004;Battery Type - 8 AA</span>
+<span class="product__alcohol extra highlight">&#10004;Time Lapse</span>
+         <span class="product__alcohol extra highlight">&#x2717;Time Lapse mode + Motion Detect Images </span>  
+<span class="product__alcohol extra highlight">&#10004;Multi-Shot Mode up to 3 Images</span>
+<span class="product__alcohol extra highlight">&#10004;PIR Settings: Low, Normal, High, Auto</span>
+<span class="product__alcohol extra highlight">&#10004;Flash Settings: Low, Medium, High</span>          
+<span class="product__alcohol extra highlight">&#x2717;Built in Viewer</span> 
+<span class="product__alcohol extra highlight">&#x2717;Passcode Lock</span> 
+<span class="product__alcohol extra highlight">&#x2717;Photo + Video</span>  
+<span class="product__alcohol extra highlight">&#10004;Start Stop Time - AM or PM</span> 
+        <span class="product__price highlight">$179.95</span>
+        <button class="action action--button action--buy add-cart1" id="product204" data-product="Silicone Utensil Set Kitchen Utensil" data-price="3000" data-img="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/c86d5be167f31ee5905f20f2e9badc89.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"><i class="fa fa-shopping-cart"></i><span class="action__text">Add to cart</span></button>
+      </div>
+      <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+    </div>
+    <div class="product">
+      <div class="product__info">
+        <img class="product__image" src="https://www.littlestorageco.com/cdn/shop/products/10-piece-silicone-utensil-set-marble-little-label-co-1.jpg?v=1700614899&width=1946" alt="Product 6" />
+        <h3 class="product__title">10-piece Silicone Utensil Set MARBLE</h3>
+<span class="product__year extra highlight">&bull;Photo Trigger - 0.14s</span> 
+<span class="product__year extra highlight">&bull;Photo Recovery - 0.93s </span> 
+<span class="product__year extra highlight">&bull;Video Trigger - 2.41s </span> 
+<span class="product__year extra highlight">&bull;Video Recovery - 5.0s </span>
+<span class="product__year extra highlight">&#42;Battery Life - 8.6 Months (Lithium batteries 35 day and 35 night) </span>          
+        <span class="product__year extra highlight">&#10004;No Glow Infrared Flash</span>
+        <span class="product__region extra highlight"> &#10004;Photo Resolution - 14 Mpxl Resolution (Interpolated)</span>
+        <span class="product__varietal extra highlight">&#10004;Video- 1920 x 1080 HD</span>
+        <span class="product__alcohol extra highlight">&#10004;External Power Jack - 6 Volt</span>
+         <span class="product__alcohol extra highlight">&#10004;Battery Type - 8 AA</span>
+<span class="product__alcohol extra highlight">&#10004;Time Lapse</span>
+         <span class="product__alcohol extra highlight">&#x2717;Time Lapse mode + Motion Detect Images </span>  
+<span class="product__alcohol extra highlight">&#10004;Multi-Shot Mode up to 3 Images</span>
+<span class="product__alcohol extra highlight">&#10004;PIR Settings: Low, Normal, High, Auto</span>
+<span class="product__alcohol extra highlight">&#10004;Flash Settings: Low, Medium, High</span>          
+<span class="product__alcohol extra highlight">&#x2717;Built in Viewer</span> 
+<span class="product__alcohol extra highlight">&#x2717;Passcode Lock</span> 
+<span class="product__alcohol extra highlight">&#x2717;Photo + Video</span>  
+<span class="product__alcohol extra highlight">&#10004;Start Stop Time - AM or PM</span> 
+        <span class="product__price highlight">$199.95</span>
+        <button class="action action--button action--buy add-cart1" id="product205" data-product="10-piece Silicone Utensil Set MARBLE" data-price="3000" data-img="https://www.littlestorageco.com/cdn/shop/products/10-piece-silicone-utensil-set-marble-little-label-co-1.jpg?v=1700614899&width=1946"><i class="fa fa-shopping-cart"></i><span class="action__text">Add to cart</span></button>
+      </div>
+      <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+    </div>
+    <div class="product">
+      <div class="product__info">
+        <img class="product__image" src="https://www.ikea.com/gb/en/images/products/fullaendad-5-piece-kitchen-utensil-set-grey__0711751_pe728440_s5.jpg?f=s" alt="Product 7" />
+        <h3 class="product__title">FULLÄNDAD grey, 5-piece kitchen utensil </h3>
+<span class="product__year extra highlight">&bull;Photo Trigger - 0.22s</span> 
+<span class="product__year extra highlight">&bull;Photo Recovery - 3.3s </span> 
+<span class="product__year extra highlight">&bull;Video Trigger - 1.74s </span> 
+<span class="product__year extra highlight">&bull;Video Recovery - 5.3s </span>
+<span class="product__year extra highlight">&#42;Battery Life - 11.1 Months (Lithium batteries 35 day and 35 night) </span>         
+                    <span class="product__year extra highlight">&#10004;Red Glow Infrared Flash</span>
+        <span class="product__region extra highlight"> &#10004;Photo Resolution - 12 Mpxl Resolution (Interpolated)</span>
+        <span class="product__varietal extra highlight">&#10004;Video- 1280 x 720 HD</span>
+        <span class="product__alcohol extra highlight">&#10004;External Power Jack - 12 Volt</span>
+         <span class="product__alcohol extra highlight">&#10004;Battery Type - 8 AA</span>
+<span class="product__alcohol extra highlight">&#10004;Time Lapse</span>
+         <span class="product__alcohol extra highlight">&#x2717;Time Lapse mode + Motion Detect Images </span>  
+<span class="product__alcohol extra highlight">&#10004;Multi-Shot Mode up to 3 Images</span>
+<span class="product__alcohol extra highlight">&#10004;PIR Settings: Low, Normal, High, Auto</span>
+<span class="product__alcohol extra highlight">&#x2717;Flash Settings: Low, Medium, High</span>          
+<span class="product__alcohol extra highlight">&#x2717;Built in Viewer</span> 
+<span class="product__alcohol extra highlight">&#x2717;Passcode Lock</span> 
+<span class="product__alcohol extra highlight">&#x2717;Photo + Video</span>  
+<span class="product__alcohol extra highlight">&#10004;Start Stop Time - AM or PM</span> 
+        <span class="product__price highlight">$149.95</span>
+        <button class="action action--button action--buy add-cart1" id="product206" data-product="FULLÄNDAD grey, 5-piece kitchen utensil " data-price="3000" data-img="https://www.ikea.com/gb/en/images/products/fullaendad-5-piece-kitchen-utensil-set-grey__0711751_pe728440_s5.jpg?f=s"><i class="fa fa-shopping-cart"></i><span class="action__text">Add to cart</span></button>
+      </div>
+      <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+    </div>
+    <div class="product">
+      <div class="product__info">
+        <img class="product__image" src="https://i01.hsncdn.com/is/image/HomeShoppingNetwork/rocs1200/megachef-black-silicone-and-wood-cooking-utensils-set-o-d-2021082019315052~9884604w.jpg" alt="Product 8" />
+        <h3 class="product__title">MegaChef Black Wood Cooking Utensils</h3>
+<span class="product__year extra highlight">&bull;Photo Trigger - 0.29s</span> 
+<span class="product__year extra highlight">&bull;Photo Recovery - 57.7s </span> 
+<span class="product__year extra highlight">&bull;Video Trigger - NA </span> 
+<span class="product__year extra highlight">&bull;Video Recovery - NA  </span>
+<span class="product__year extra highlight">&#42;Battery Life - 2.6 Months (Lithium batteries 35 day and 35 night)  </span>          
+                                <span class="product__year extra highlight">&#10004;No Glow Infrared Flash</span>
+        <span class="product__region extra highlight"> &#10004;Photo Resolution - 12 Mpxl Resolution (Interpolated)</span>
+        <span class="product__varietal extra highlight">&#10004;Video- 1280 x 720 HD</span>
+        <span class="product__alcohol extra highlight">&#10004;External Power Jack - 6 Volt</span>
+         <span class="product__alcohol extra highlight">&#10004;Battery Type - 12 AA</span>
+<span class="product__alcohol extra highlight">&#10004;Time Lapse</span>
+         <span class="product__alcohol extra highlight">&#x2717;Time Lapse mode + Motion Detect Images </span>  
+<span class="product__alcohol extra highlight">&#10004;Multi-Shot Mode up to 3 Images</span>
+<span class="product__alcohol extra highlight">&#10004;PIR Settings: Low, Normal, High, Auto</span>
+<span class="product__alcohol extra highlight">&#10004;Flash Settings: Low, Medium, High</span>          
+<span class="product__alcohol extra highlight">&#10004;Built in Viewer</span> 
+<span class="product__alcohol extra highlight">&#x2717;Passcode Lock</span> 
+<span class="product__alcohol extra highlight">&#x2717;Photo + Video</span>  
+<span class="product__alcohol extra highlight">&#10004;Start Stop Time</span> 
+        <span class="product__price highlight">$399.95</span>
+        <button class="action action--button action--buy add-cart1" id="product207" data-product="MegaChef Black Wood Cooking Utensils" data-price="3000" data-img="https://i01.hsncdn.com/is/image/HomeShoppingNetwork/rocs1200/megachef-black-silicone-and-wood-cooking-utensils-set-o-d-2021082019315052~9884604w.jpg"><i class="fa fa-shopping-cart"></i><span class="action__text">Add to cart</span></button>
+      </div>
+      <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+    </div>
+    <div class="product">
+      <div class="product__info">
+        <img class="product__image" src="https://i.pinimg.com/564x/08/72/8b/08728bf3f72a26b1a423c873f3392ab7.jpg" alt="Product 9" />
+        <h3 class="product__title">Toxic Nonstick Cookware</h3>
+<span class="product__year extra highlight">&bull;Photo Trigger - 1.25s</span> 
+<span class="product__year extra highlight">&bull;Photo Recovery - 50.2s </span> 
+<span class="product__year extra highlight">&bull;Video Trigger - NA  </span> 
+<span class="product__year extra highlight">&bull;Video Recovery - NA  </span>
+<span class="product__year extra highlight">&#42;Battery Life - 3.6 Months (Lithium batteries 35 day and 35 night) </span>            
+                                <span class="product__year extra highlight">&#10004;No Glow Infrared Flash</span>
+        <span class="product__region extra highlight"> &#10004;Photo Resolution - 12 Mpxl Resolution (Interpolated)</span>
+        <span class="product__varietal extra highlight">&#10004;Video- 1280 x 720 HD</span>
+        <span class="product__alcohol extra highlight">&#10004;External Power Jack - 6 Volt</span>
+         <span class="product__alcohol extra highlight">&#10004;Battery Type - 12 AA</span>
+<span class="product__alcohol extra highlight">&#10004;Time Lapse</span>
+         <span class="product__alcohol extra highlight">&#x2717;Time Lapse mode + Motion Detect Images </span>  
+<span class="product__alcohol extra highlight">&#10004;Multi-Shot Mode up to 10 Images</span>
+<span class="product__alcohol extra highlight">&#10004;PIR Settings: Low, Normal, High</span>
+<span class="product__alcohol extra highlight">&#10004;Flash Settings: Low, High</span>          
+<span class="product__alcohol extra highlight">&#10004;Built in Viewer</span> 
+<span class="product__alcohol extra highlight">&#10004;Passcode Lock</span> 
+<span class="product__alcohol extra highlight">&#x2717;Photo + Video</span>  
+<span class="product__alcohol extra highlight">&#10004;Start Stop Time - 2 Programmable Times</span> 
+        <span class="product__price highlight">$399.95</span>
+        <button class="action action--button action--buy add-cart1" id="product208" data-product="Toxic Nonstick Cookware" data-price="3000" data-img="https://i.pinimg.com/564x/08/72/8b/08728bf3f72a26b1a423c873f3392ab7.jpg"><i class="fa fa-shopping-cart"></i><span class="action__text">Add to cart</span></button>
+      </div>
+      <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+    </div>
+    <div class="product">
+      <div class="product__info">
+        <img class="product__image" src="https://pictures-nigeria.jijistatic.com/132571382_NjIwLTYyMC04MmZjMWE3YTYx.webp" alt="Product 10" />
+        <h3 class="product__title">Five black kitchen utensils</h3>
+<span class="product__year extra highlight">&bull;Photo Trigger - </span> 
+<span class="product__year extra highlight">&bull;Photo Recovery -  </span> 
+<span class="product__year extra highlight">&bull;Video Trigger -  </span> 
+<span class="product__year extra highlight">&bull;Video Recovery -  </span>
+<span class="product__year extra highlight">&#42;Battery Life -  </span>          
+        <span class="product__year extra highlight">&#10004;No Glow Infrared Flash</span>
+        <span class="product__region extra highlight"> &#10004;Photo Resolution - 12 Mpxl Resolution (Interpolated)</span>
+        <span class="product__varietal extra highlight">&#10004;Video- 1280 x 720 HD</span>
+        <span class="product__alcohol extra highlight">&#10004;External Power Jack - 6 Volt</span>
+         <span class="product__alcohol extra highlight">&#10004;Battery Type - 12 AA</span>
+<span class="product__alcohol extra highlight">&#10004;Time Lapse</span>
+         <span class="product__alcohol extra highlight">&#x2717;Time Lapse mode + Motion Detect Images </span>  
+<span class="product__alcohol extra highlight">&#10004;Multi-Shot Mode up to 10 Images</span>
+<span class="product__alcohol extra highlight">&#10004;PIR Settings: Low, Normal, High</span>
+<span class="product__alcohol extra highlight">&#10004;Flash Settings: Low, High</span>          
+<span class="product__alcohol extra highlight">&#10004;Built in Viewer</span> 
+<span class="product__alcohol extra highlight">&#10004;Passcode Lock</span> 
+<span class="product__alcohol extra highlight">&#x2717;Photo + Video</span>  
+<span class="product__alcohol extra highlight">&#10004;Start Stop Time - 2 Programmable Times</span> 
+        <span class="product__price highlight">$449.95</span>
+        <button class="action action--button action--buy add-cart1" id="product209" data-product="Five black kitchen utensils" data-price="3000" data-img="https://pictures-nigeria.jijistatic.com/132571382_NjIwLTYyMC04MmZjMWE3YTYx.webp"></i><span class="action__text">Add to cart</span></button>
+      </div>
+      <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+    </div>
+    <div class="product">
+      <div class="product__info">
+        <img class="product__image" src="https://m.media-amazon.com/images/I/51CxTUnPCJL._AC_UF894,1000_QL80_.jpg" alt="Product 11" />
+        <h3 class="product__title">Spatula 12-piece Stainless Steel</h3>
+<span class="product__year extra highlight">&bull;Photo Trigger - </span> 
+<span class="product__year extra highlight">&bull;Photo Recovery -  </span> 
+<span class="product__year extra highlight">&bull;Video Trigger -  </span> 
+<span class="product__year extra highlight">&bull;Video Recovery -  </span>
+<span class="product__year extra highlight">&#42;Battery Life -  </span>      
+<span class="product__year extra highlight">&#10004;No Glow Infrared Flash</span>
+        <span class="product__region extra highlight"> &#10004;Photo Resolution - 12 Mpxl Resolution (Interpolated)</span>
+        <span class="product__varietal extra highlight">&#10004;Video- 1080 x 720 HD</span>
+        <span class="product__alcohol extra highlight">&#10004;External Power Jack - 6 Volt</span>
+         <span class="product__alcohol extra highlight">&#10004;Battery Type - 12 AA</span>
+<span class="product__alcohol extra highlight">&#10004;Time Lapse</span>
+         <span class="product__alcohol extra highlight">&#x2717;Time Lapse mode + Motion Detect Images </span>  
+<span class="product__alcohol extra highlight">&#10004;Multi-Shot Mode up to 10 Images</span>
+<span class="product__alcohol extra highlight">&#10004;PIR Settings: Low, Normal, High</span>
+<span class="product__alcohol extra highlight">&#10004;Flash Settings: Low, High</span>          
+<span class="product__alcohol extra highlight">&#10004;Built in Viewer</span> 
+<span class="product__alcohol extra highlight">&#10004;Passcode Lock</span> 
+<span class="product__alcohol extra highlight">&#x2717;Photo + Video</span>  
+<span class="product__alcohol extra highlight">&#10004;Start Stop Time - 2 Programmable Times</span> 
+        <span class="product__price highlight">$199.95</span>
+        <button class="action action--button action--buy add-cart1" id="product210" data-product="Spatula 12-piece Stainless Steel" data-price="3000" data-img="https://m.media-amazon.com/images/I/51CxTUnPCJL._AC_UF894,1000_QL80_.jpg"><i class="fa fa-shopping-cart"></i><span class="action__text">Add to cart</span></button>
+      </div>
+      <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+    </div>
+    <div class="product">
+      <div class="product__info">
+        <img class="product__image" src="https://img.fruugo.com/product/7/72/253205727_max.jpg" alt="Product 12" />
+        <h3 class="product__title">Kitchen Utensils Set Non-stick </h3>
+<span class="product__year extra highlight">&bull;Photo Trigger - </span> 
+<span class="product__year extra highlight">&bull;Photo Recovery -  </span> 
+<span class="product__year extra highlight">&bull;Video Trigger -  </span> 
+<span class="product__year extra highlight">&bull;Video Recovery -  </span>
+<span class="product__year extra highlight">&#42;Battery Life -  </span>           
+<span class="product__year extra highlight">&#10004;Red Glow Infrared Flash</span>
+        <span class="product__region extra highlight"> &#10004;Photo Resolution - 12 Mpxl Resolution (Interpolated)</span>
+        <span class="product__varietal extra highlight">&#10004;Video- 1080 x 720 HD</span>
+        <span class="product__alcohol extra highlight">&#10004;External Power Jack - 6 Volt</span>
+         <span class="product__alcohol extra highlight">&#10004;Battery Type - 12 AA</span>
+<span class="product__alcohol extra highlight">&#10004;Time Lapse</span>
+         <span class="product__alcohol extra highlight">&#x2717;Time Lapse mode + Motion Detect Images </span>  
+<span class="product__alcohol extra highlight">&#10004;Multi-Shot Mode up to 10 Images</span>
+<span class="product__alcohol extra highlight">&#10004;PIR Settings: Low, Normal, High</span>
+<span class="product__alcohol extra highlight">&#10004;Flash Settings: Low, High</span>          
+<span class="product__alcohol extra highlight">&#10004;Built in Viewer</span> 
+<span class="product__alcohol extra highlight">&#10004;Passcode Lock</span> 
+<span class="product__alcohol extra highlight">&#x2717;Photo + Video</span>  
+<span class="product__alcohol extra highlight">&#10004;Start Stop Time - 2 Programmable Times</span> 
+        <span class="product__price highlight">$199.95</span>
+        <button class="action action--button action--buy add-cart1" id="product211" data-product="Kitchen Utensils Set Non-stick " data-price="3000" data-img="https://img.fruugo.com/product/7/72/253205727_max.jpg"><i class="fa fa-shopping-cart"></i><span class="action__text">Add to cart</span></button>
+      </div>
+      <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+    </div>
+  </section>
+</div><!-- /view -->
+<!-- product compare wrapper -->
+<section class="compare">
+  <button class="action action--close"><i class="fa fa-remove"></i><span class="action__text action__text--invisible">Close comparison overlay</span></button>
+</section>
+   <!-- footer start  -->
+   <footer class="fot">
+    <div class="row row1">
+        <div class="col-md-3 col-12" style="margin-top: -40px;">
+            <img src="./LOGO1.png" class="logo1">
+            <p>"The Kitchen appliances are an integral part of your Kitchen. Everyone always want to have quality Kitchen tools and highly aesyhetic. But where to find a pretty and product quality?
+              Come with us, our products will not let you down. And to match the current demand we created the site to help your purchasing easier then ever.
+              
+              "Think once,think twice,think Shine"
+              
+              Shine-brighten your Kitchen"</p>
+        </div>
+        <div class="col-md-3 col-12 mt-4 mt-md-0">
+            <h3 class="three">Office<div class="underline"><span class="eight"></span></div></h3>
+            <p>Aptech North Karachi Center<br/>
+              Address: A-563 Shahrah-e-Usman,<br/>
+               Sector 11-A North Karachi, Karachi, 75850.<br/></p>
+            <p class="email-id">info-nk@aptech-education.com.pk</p>
+            <h5><a href="https://wa.me/923402017679" style="color: white;">+923402017679</a></h5>
+
+
+        </div>
+        <div class="col-md-3 col-12 mt-4 mt-md-0">
+            <h3 class="three">Categories<div class="underline"><span class="eight"></span></div></h3>
+            <ul class="two">
+                <li class="one"><a href="hawkins.html">Hawkins</a></li>
+                <li class="one"><a href="Pampered Chef.html">Pampered Chef</a></li>
+                <li class="one"><a href="Calphalon.html"> Calphalon</a></li>
+                <li class="one"><a href="Joseph Joseph.html">Joseph Joseph</a></li>
+                <li class="one"><a href="All-Clad.html">All-Clad</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-12 mt-4 mt-md-0">
+            <h3 class="three">Newsletter<div class="underline"><span class="eight"></span></div></h3>
+            <br>
+            <button type="button" class="Fedback btn" data-bs-toggle="modal" data-bs-target="#feedback">Your Feedback</button>
+
+            <div class="modal fade" id="feedback" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content background-1">
+          <div class="modal-body">
+                <div class="text-end">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              
+  <form id="signupForm">
+    <div class="input-box">
+      <input class="logininput" type="text" id="fullName" required>
+      <label class="loginlabel" for="fullName">Full Name</label>
+    </div>
+
+    <div class="input-box">
+      <span class="icon"><ion-icon name="mail"></ion-icon></span>
+      <input class="logininput" type="email" id="email" required>
+      <label class="loginlabel" for="email">Email</label>
+    </div>
+
+    <div class="mb-2">
+      <label for="recipient-name" class="col-form-label">Would you use our service in the future?</label>
+    </div>
+
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+      <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+    </div>
+
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked required>
+      <label class="form-check-label" for="flexRadioDefault2">No</label>
+    </div>
+
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" required>
+      <label class="form-check-label" for="flexRadioDefault3">Maybe</label>
+    </div>
+
+    <br>
+
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">How can we improve our service?</label>
+      <textarea class="form-control logininput" id="exampleFormControlTextarea1" rows="5" required></textarea>
+    </div>
+
+    <div class="mb-3">
+      <button type="submit" class="button1" onclick="submitFeedback()">Submit</button>
+    </div>
+  </form>
+                
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br>
+                         
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+               <a href="https://wa.me/923402017679" style="color: white;"> <i class="fab fa-whatsapp"></i><a>
+                <i class="fab fa-pinterest"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="seven">
+    <p class="copyright">The Shine Utensils &copy; 2023 - All Right Reserved</p>
+</footer>
+<!-- Back to Top -->
+<a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+<script src="app.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- swiper link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+      <!-- AOS Link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      
+function submitFeedback() {
+    alert('Thank you for your feedback!');
+}
+  function showAlert1() {
+    alert('Successfully Login!');
+  }
+  // function showAlert2() {
+  //   alert('Your Registration Successfully!');
+  // }
+  function showAlert2() {
+    alert('Thank you for signing up!');
+  }
+
+      $(document).ready(function () {
+        $(function () {
+          $(window).on('scroll', function () {
+            if ($(window).scrollTop() > 70) {
+              $('.navbar').addClass('active');
+            } else {
+              $('.navbar').removeClass('active');
+            }
+          });
+        });
+        AOS.init({
+          duration: 1200,
+        });
+        $(".wish-icon i").click(function () {
+          $(this).toggleClass("fa-heart fa-heart-o");
+        });
+  
+        let countDownDate = new Date("May 30, 2023 00:00:00").getTime();
+        let x = setInterval(function () {
+          let now = new Date().getTime();
+          let distance = countDownDate - now;
+  
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+          document.getElementById("days").innerHTML = days;
+          document.getElementById("hour").innerHTML = hours;
+          document.getElementById("min").innerHTML = minutes;
+          document.getElementById("sec").innerHTML = seconds;
+        }, 1000);
+  
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 1,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          autoplay: {
+            delay: 2000,
+          },
+  
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          breakpoints: {
+            // when window width is >= 100px
+            100: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            // when window width is >= 480px
+            480: {
+              slidesPerView: 1,
+              spaceBetween: 30,
+            },
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            // when window width is >= 800px
+            800: {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            }
+  
+          },
+        });
+        var load = document.getElementById("loader");
+        setTimeout(function () {
+          $("#loader").css("display", "none")
+        }, 2000);
+  
+  
+        var words = ['23rd Anniversary Offer', 'Get upto 30% Off!', 'On All Products'],
+          part,
+          i = 0,
+          offset = 0,
+          len = words.length,
+          forwards = true,
+          skip_count = 0,
+          skip_delay = 15,
+          speed = 70;
+        var wordflick = function () {
+          setInterval(function () {
+            if (forwards) {
+              if (offset >= words[i].length) {
+                ++skip_count;
+                if (skip_count == skip_delay) {
+                  forwards = false;
+                  skip_count = 0;
+                }
+              }
+            }
+            else {
+              if (offset == 0) {
+                forwards = true;
+                i++;
+                offset = 0;
+                if (i >= len) {
+                  i = 0;
+                }
+              }
+            }
+            part = words[i].substr(0, offset);
+            if (skip_count == 0) {
+              if (forwards) {
+                offset++;
+              }
+              else {
+                offset--;
+              }
+            }
+            $('.word').text(part);
+          }, speed);
+        };
+  
+        $(document).ready(function () {
+          wordflick();
+        });
+  
+      });
+  
+      function validateForm() {
+          const fullName = document.getElementById('fullName').value.trim();
+          const email = document.getElementById('email').value.trim();
+          const phoneNumber = document.getElementById('phoneNumber').value.trim();
+        // Basic validation
+        if (fullName === '' || email === '' || phoneNumber === '' || password === '' || confirmPassword === '') {
+              alert('Please fill in all fields.');
+              return false;
+          }
+        }
+  
+        function checkPasswordMatch() {
+      const password = document.getElementById('password').value;
+      const confirmPassword = document.getElementById('confirmPassword').value;
+      const passwordMatchMessage = document.getElementById('passwordMatchMessage');
+  
+      if (password === confirmPassword) {
+          passwordMatchMessage.innerHTML = 'Passwords match';
+          passwordMatchMessage.style.color = 'green';
+      } else {
+          passwordMatchMessage.innerHTML = 'Passwords do not match';
+          passwordMatchMessage.style.color = 'red';
+      }
+  }
+  window.onscroll = () => {
+  toggleTopButton();
+}
+function scrollToTop(){
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function toggleTopButton() {
+  if (document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20) {
+    document.getElementById('back-to-up').classList.remove('d-none');
+  } else {
+    document.getElementById('back-to-up').classList.add('d-none');
+  }
+}
+
+    </script>
+
+<script>
+  /*!
+ * classie v1.0.1
+ * class helper functions
+ * from bonzo https://github.com/ded/bonzo
+ * MIT license
+ * 
+ * classie.has( elem, 'my-class' ) -> true/false
+ * classie.add( elem, 'my-new-class' )
+ * classie.remove( elem, 'my-unwanted-class' )
+ * classie.toggle( elem, 'my-class' )
+ */
+
+/*jshint browser: true, strict: true, undef: true, unused: true */
+/*global define: false, module: false */
+
+( function( window ) {
+
+'use strict';
+
+// class helper functions from bonzo https://github.com/ded/bonzo
+
+function classReg( className ) {
+  return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
+}
+
+// classList support for class management
+// altho to be fair, the api sucks because it won't accept multiple classes at once
+var hasClass, addClass, removeClass;
+
+if ( 'classList' in document.documentElement ) {
+  hasClass = function( elem, c ) {
+    return elem.classList.contains( c );
+  };
+  addClass = function( elem, c ) {
+    elem.classList.add( c );
+  };
+  removeClass = function( elem, c ) {
+    elem.classList.remove( c );
+  };
+}
+else {
+  hasClass = function( elem, c ) {
+    return classReg( c ).test( elem.className );
+  };
+  addClass = function( elem, c ) {
+    if ( !hasClass( elem, c ) ) {
+      elem.className = elem.className + ' ' + c;
+    }
+  };
+  removeClass = function( elem, c ) {
+    elem.className = elem.className.replace( classReg( c ), ' ' );
+  };
+}
+
+function toggleClass( elem, c ) {
+  var fn = hasClass( elem, c ) ? removeClass : addClass;
+  fn( elem, c );
+}
+
+var classie = {
+  // full names
+  hasClass: hasClass,
+  addClass: addClass,
+  removeClass: removeClass,
+  toggleClass: toggleClass,
+  // short names
+  has: hasClass,
+  add: addClass,
+  remove: removeClass,
+  toggle: toggleClass
+};
+
+// transport
+if ( typeof define === 'function' && define.amd ) {
+  // AMD
+  define( classie );
+} else if ( typeof exports === 'object' ) {
+  // CommonJS
+  module.exports = classie;
+} else {
+  // browser global
+  window.classie = classie;
+}
+
+})( window );
+/**
+ * main.js
+ * http://www.codrops.com
+ *
+ * Licensed under the MIT license.
+ * https://www.opensource.org/licenses/mit-license.php
+ * 
+ * Copyright 2015, Codrops
+ * http://www.codrops.com
+ */
+(function() {
+
+    var viewEl = document.querySelector('.view'),
+        gridEl = viewEl.querySelector('.grid'),
+        items = [].slice.call(gridEl.querySelectorAll('.product')),
+        basket;
+
+    // the compare basket
+    function CompareBasket() {
+        this.el = document.querySelector('.compare-basket');
+        this.compareCtrl = this.el.querySelector('.action--compare');
+        this.compareWrapper = document.querySelector('.compare'),
+        this.closeCompareCtrl = this.compareWrapper.querySelector('.action--close')
+        
+        this.itemsAllowed = 4;
+        this.totalItems = 0;
+        this.items = [];
+
+        // compares items in the compare basket: opens the compare products wrapper
+        this.compareCtrl.addEventListener('click', this._compareItems.bind(this));
+        // close the compare products wrapper
+        var self = this;
+        this.closeCompareCtrl.addEventListener('click', function() {
+            // toggle compare basket
+            classie.add(self.el, 'compare-basket--active');
+            // animate..
+            classie.remove(viewEl, 'view--compare');
+        });
+    }
+
+    CompareBasket.prototype.add = function(item) {
+        // check limit
+        if( this.isFull() ) {
+            return false;
+        }
+
+        classie.add(item, 'product--selected');
+
+        // create item preview element
+        var preview = this._createItemPreview(item);
+        // prepend it to the basket
+        this.el.insertBefore(preview, this.el.childNodes[0]);
+        // insert item
+        this.items.push(preview);
+
+        this.totalItems++;
+        if( this.isFull() ) {
+            classie.add(this.el, 'compare-basket--full');
+        }
+
+        classie.add(this.el, 'compare-basket--active');
+    };
+
+    CompareBasket.prototype._createItemPreview = function(item) {
+        var self = this;
+
+        var preview = document.createElement('div');
+        preview.className = 'product-icon';
+        preview.setAttribute('data-idx', items.indexOf(item));
+        
+        var removeCtrl = document.createElement('button');
+        removeCtrl.className = 'action action--remove';
+        removeCtrl.innerHTML = '<i class="fa fa-remove"></i><span class="action__text action__text--invisible">Remove product</span>';
+        removeCtrl.addEventListener('click', function() {
+            self.remove(item);
+        });
+        
+        var productImageEl = item.querySelector('img.product__image').cloneNode(true);
+
+        preview.appendChild(productImageEl);
+        preview.appendChild(removeCtrl);
+
+        var productInfo = item.querySelector('.product__info').innerHTML;
+        preview.setAttribute('data-info', productInfo);
+
+        return preview;
+    };
+
+    CompareBasket.prototype.remove = function(item) {
+        classie.remove(this.el, 'compare-basket--full');
+        classie.remove(item, 'product--selected');
+        var preview = this.el.querySelector('[data-idx = "' + items.indexOf(item) + '"]');
+        this.el.removeChild(preview);
+        this.totalItems--;
+
+        var indexRemove = this.items.indexOf(preview);
+        this.items.splice(indexRemove, 1);
+
+        if( this.totalItems === 0 ) {
+            classie.remove(this.el, 'compare-basket--active');
+        }
+
+        // checkbox
+        var checkbox = item.querySelector('.action--compare-add > input[type = "checkbox"]');
+        if( checkbox.checked ) {
+            checkbox.checked = false;
+        }
+    };
+
+    CompareBasket.prototype._compareItems = function() {
+        var self = this;
+
+        // remove all previous items inside the compareWrapper element
+        [].slice.call(this.compareWrapper.querySelectorAll('div.compare__item')).forEach(function(item) {
+            self.compareWrapper.removeChild(item);
+        });
+
+        for(var i = 0; i < this.totalItems; ++i) {
+            var compareItemWrapper = document.createElement('div');
+            compareItemWrapper.className = 'compare__item';
+
+            var compareItemEffectEl = document.createElement('div');
+            compareItemEffectEl.className = 'compare__effect';
+
+            compareItemEffectEl.innerHTML = this.items[i].getAttribute('data-info');
+            compareItemWrapper.appendChild(compareItemEffectEl);
+
+            this.compareWrapper.insertBefore(compareItemWrapper, this.compareWrapper.childNodes[0]);
+        }
+
+        setTimeout(function() {
+            // toggle compare basket
+            classie.remove(self.el, 'compare-basket--active');
+            // animate..
+            classie.add(viewEl, 'view--compare');
+        }, 25);
+    };
+
+    CompareBasket.prototype.isFull = function() {
+        return this.totalItems === this.itemsAllowed;
+    };
+
+    function init() {
+        // initialize an empty basket
+        basket = new CompareBasket();
+        initEvents();
+    }
+
+    function initEvents() {
+        items.forEach(function(item) {
+            var checkbox = item.querySelector('.action--compare-add > input[type = "checkbox"]');
+            checkbox.checked = false;
+
+            // ctrl to add to the "compare basket"
+            checkbox.addEventListener('click', function(ev) {
+                if( ev.target.checked ) {
+                    if( basket.isFull() ) {
+                        ev.preventDefault();
+                        return false;
+                    }
+                    basket.add(item);
+                }
+                else {
+                    basket.remove(item);
+                }
+            });
+        });
+    }
+
+    init();
+
+})();
+/* Modernizr 2.8.3 (Custom Build) | MIT & BSD
+ * Build: https://modernizr.com/download/#-flexbox-shiv-cssclasses-teststyles-testprop-testallprops-prefixes-domprefixes-load
+ */
+;window.Modernizr=function(a,b,c){function z(a){j.cssText=a}function A(a,b){return z(m.join(a+";")+(b||""))}function B(a,b){return typeof a===b}function C(a,b){return!!~(""+a).indexOf(b)}function D(a,b){for(var d in a){var e=a[d];if(!C(e,"-")&&j[e]!==c)return b=="pfx"?e:!0}return!1}function E(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:B(f,"function")?f.bind(d||b):f}return!1}function F(a,b,c){var d=a.charAt(0).toUpperCase()+a.slice(1),e=(a+" "+o.join(d+" ")+d).split(" ");return B(b,"string")||B(b,"undefined")?D(e,b):(e=(a+" "+p.join(d+" ")+d).split(" "),E(e,b,c))}var d="2.8.3",e={},f=!0,g=b.documentElement,h="modernizr",i=b.createElement(h),j=i.style,k,l={}.toString,m=" -webkit- -moz- -o- -ms- ".split(" "),n="Webkit Moz O ms",o=n.split(" "),p=n.toLowerCase().split(" "),q={},r={},s={},t=[],u=t.slice,v,w=function(a,c,d,e){var f,i,j,k,l=b.createElement("div"),m=b.body,n=m||b.createElement("body");if(parseInt(d,10))while(d--)j=b.createElement("div"),j.id=e?e[d]:h+(d+1),l.appendChild(j);return f=["&#173;",'<style id="s',h,'">',a,"</style>"].join(""),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background="",n.style.overflow="hidden",k=g.style.overflow,g.style.overflow="hidden",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},x={}.hasOwnProperty,y;!B(x,"undefined")&&!B(x.call,"undefined")?y=function(a,b){return x.call(a,b)}:y=function(a,b){return b in a&&B(a.constructor.prototype[b],"undefined")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!="function")throw new TypeError;var d=u.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(u.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(u.call(arguments)))};return e}),q.flexbox=function(){return F("flexWrap")};for(var G in q)y(q,G)&&(v=G.toLowerCase(),e[v]=q[G](),t.push((e[v]?"":"no-")+v));return e.addTest=function(a,b){if(typeof a=="object")for(var d in a)y(a,d)&&e.addTest(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b=="function"?b():b,typeof f!="undefined"&&f&&(g.className+=" "+(b?"":"no-")+a),e[a]=b}return e},z(""),i=k=null,function(a,b){function l(a,b){var c=a.createElement("p"),d=a.getElementsByTagName("head")[0]||a.documentElement;return c.innerHTML="x<style>"+b+"</style>",d.insertBefore(c.lastChild,d.firstChild)}function m(){var a=s.elements;return typeof a=="string"?a.split(" "):a}function n(a){var b=j[a[h]];return b||(b={},i++,a[h]=i,j[i]=b),b}function o(a,c,d){c||(c=b);if(k)return c.createElement(a);d||(d=n(c));var g;return d.cache[a]?g=d.cache[a].cloneNode():f.test(a)?g=(d.cache[a]=d.createElem(a)).cloneNode():g=d.createElem(a),g.canHaveChildren&&!e.test(a)&&!g.tagUrn?d.frag.appendChild(g):g}function p(a,c){a||(a=b);if(k)return a.createDocumentFragment();c=c||n(a);var d=c.frag.cloneNode(),e=0,f=m(),g=f.length;for(;e<g;e++)d.createElement(f[e]);return d}function q(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(c){return s.shivMethods?o(c,a,b):b.createElem(c)},a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+m().join().replace(/[\w\-]+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c("'+a+'")'})+");return n}")(s,b.frag)}function r(a){a||(a=b);var c=n(a);return s.shivCSS&&!g&&!c.hasCSS&&(c.hasCSS=!!l(a,"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}")),k||q(a,c),a}var c="3.7.0",d=a.html5||{},e=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,f=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,g,h="_html5shiv",i=0,j={},k;(function(){try{var a=b.createElement("a");a.innerHTML="<xyz></xyz>",g="hidden"in a,k=a.childNodes.length==1||function(){b.createElement("a");var a=b.createDocumentFragment();return typeof a.cloneNode=="undefined"||typeof a.createDocumentFragment=="undefined"||typeof a.createElement=="undefined"}()}catch(c){g=!0,k=!0}})();var s={elements:d.elements||"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output progress section summary template time video",version:c,shivCSS:d.shivCSS!==!1,supportsUnknownElements:k,shivMethods:d.shivMethods!==!1,type:"default",shivDocument:r,createElement:o,createDocumentFragment:p};a.html5=s,r(b)}(this,b),e._version=d,e._prefixes=m,e._domPrefixes=p,e._cssomPrefixes=o,e.testProp=function(a){return D([a])},e.testAllProps=F,e.testStyles=w,g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+t.join(" "):""),e}(this,this.document),function(a,b,c){function d(a){return"[object Function]"==o.call(a)}function e(a){return"string"==typeof a}function f(){}function g(a){return!a||"loaded"==a||"complete"==a||"uninitialized"==a}function h(){var a=p.shift();q=1,a?a.t?m(function(){("c"==a.t?B.injectCss:B.injectJs)(a.s,0,a.a,a.x,a.e,1)},0):(a(),h()):q=0}function i(a,c,d,e,f,i,j){function k(b){if(!o&&g(l.readyState)&&(u.r=o=1,!q&&h(),l.onload=l.onreadystatechange=null,b)){"img"!=a&&m(function(){t.removeChild(l)},50);for(var d in y[c])y[c].hasOwnProperty(d)&&y[c][d].onload()}}var j=j||B.errorTimeout,l=b.createElement(a),o=0,r=0,u={t:d,s:c,e:f,a:i,x:j};1===y[c]&&(r=1,y[c]=[]),"object"==a?l.data=c:(l.src=c,l.type=a),l.width=l.height="0",l.onerror=l.onload=l.onreadystatechange=function(){k.call(this,r)},p.splice(e,0,u),"img"!=a&&(r||2===y[c]?(t.insertBefore(l,s?null:n),m(k,j)):y[c].push(l))}function j(a,b,c,d,f){return q=0,b=b||"j",e(a)?i("c"==b?v:u,a,b,this.i++,c,d,f):(p.splice(this.i++,0,a),1==p.length&&h()),this}function k(){var a=B;return a.loader={load:j,i:0},a}var l=b.documentElement,m=a.setTimeout,n=b.getElementsByTagName("script")[0],o={}.toString,p=[],q=0,r="MozAppearance"in l.style,s=r&&!!b.createRange().compareNode,t=s?l:n.parentNode,l=a.opera&&"[object Opera]"==o.call(a.opera),l=!!b.attachEvent&&!l,u=r?"object":l?"script":"img",v=l?"script":u,w=Array.isArray||function(a){return"[object Array]"==o.call(a)},x=[],y={},z={timeout:function(a,b){return b.length&&(a.timeout=b[0]),a}},A,B;B=function(a){function b(a){var a=a.split("!"),b=x.length,c=a.pop(),d=a.length,c={url:c,origUrl:c,prefixes:a},e,f,g;for(f=0;f<d;f++)g=a[f].split("="),(e=z[g.shift()])&&(c=e(c,g));for(f=0;f<b;f++)c=x[f](c);return c}function g(a,e,f,g,h){var i=b(a),j=i.autoCallback;i.url.split(".").pop().split("?").shift(),i.bypass||(e&&(e=d(e)?e:e[a]||e[g]||e[a.split("/").pop().split("?")[0]]),i.instead?i.instead(a,e,f,g,h):(y[i.url]?i.noexec=!0:y[i.url]=1,f.load(i.url,i.forceCSS||!i.forceJS&&"css"==i.url.split(".").pop().split("?").shift()?"c":c,i.noexec,i.attrs,i.timeout),(d(e)||d(j))&&f.load(function(){k(),e&&e(i.origUrl,h,g),j&&j(i.origUrl,h,g),y[i.url]=2})))}function h(a,b){function c(a,c){if(a){if(e(a))c||(j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}),g(a,j,b,0,h);else if(Object(a)===a)for(n in m=function(){var b=0,c;for(c in a)a.hasOwnProperty(c)&&b++;return b}(),a)a.hasOwnProperty(n)&&(!c&&!--m&&(d(j)?j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}:j[n]=function(a){return function(){var b=[].slice.call(arguments);a&&a.apply(this,b),l()}}(k[n])),g(a[n],j,b,n,h))}else!c&&l()}var h=!!a.test,i=a.load||a.both,j=a.callback||f,k=j,l=a.complete||f,m,n;c(h?a.yep:a.nope,!!i),i&&c(i)}var i,j,l=this.yepnope.loader;if(e(a))g(a,0,l,0);else if(w(a))for(i=0;i<a.length;i++)j=a[i],e(j)?g(j,0,l,0):w(j)?B(j):Object(j)===j&&h(j,l);else Object(a)===a&&h(a,l)},B.addPrefix=function(a,b){z[a]=b},B.addFilter=function(a){x.push(a)},B.errorTimeout=1e4,null==b.readyState&&b.addEventListener&&(b.readyState="loading",b.addEventListener("DOMContentLoaded",A=function(){b.removeEventListener("DOMContentLoaded",A,0),b.readyState="complete"},0)),a.yepnope=k(),a.yepnope.executeStack=h,a.yepnope.injectJs=function(a,c,d,e,i,j){var k=b.createElement("script"),l,o,e=e||B.errorTimeout;k.src=a;for(o in d)k.setAttribute(o,d[o]);c=j?h:c||f,k.onreadystatechange=k.onload=function(){!l&&g(k.readyState)&&(l=1,c(),k.onload=k.onreadystatechange=null)},m(function(){l||(l=1,c(1))},e),i?k.onload():n.parentNode.insertBefore(k,n)},a.yepnope.injectCss=function(a,c,d,e,g,i){var e=b.createElement("link"),j,c=i?h:c||f;e.href=a,e.rel="stylesheet",e.type="text/css";for(j in d)e.setAttribute(j,d[j]);g||(n.parentNode.insertBefore(e,n),m(c,0))}}(this,document),Modernizr.load=function(){yepnope.apply(window,[].slice.call(arguments,0))};
+</script>

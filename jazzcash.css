@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    /* font-size: 10p;  */
+    /* 10/16 = 0.625 * 100 */
+  }
+  
+  body {
+    background: url('https://images.pexels.com/photos/2876787/pexels-photo-2876787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    backdrop-filter: blur(8px);
+    height: 100vh;
+  }
+
+  
+  em {
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  hr {
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  
+  /* Left Side Of Container */
+  .left-side {
+    background-color: white;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .easy{
+    width: 400px;
+  }
+  .jazzcash1{
+    width: 300px;
+  }
+  .text-box {
+    background: rgba(95, 121, 134, 0.8);
+    width: 100%;
+    padding: 10px 20px;
+    bottom: 0;
+    height: 90px;
+  }
+  
+  /* Left container text */
+  
+  .home-heading {
+    color: #e8e8e1;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    /* margin-bottom: 1rem; */
+  }
+  
+  .home-price {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: -12px;
+
+  }
+  
+  .home-desc {
+    color: #e8e8e1;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Right Side of container */
+  
+  .right-side {
+    background-color: #fff;
+    padding: 18px 32px;
+  }
+  
+  .receipt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: solid 1px;
+    margin-bottom: 10px;
+  }
+  
+  .receipt-heading {
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    color: #64645f;
+    font-size: 12px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  
+  .total td {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .price {
+    text-align: end;
+  }
+  
+  /* Payment Section */
+  
+  .payment-heading {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .form-box {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 15px;
+  }
+  
+  .card-logo {
+    font-size: 20px;
+  }
+  
+  .expires,
+  .form-box label {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .form-box input {
+    font-family: inherit;
+    font-size: 12px; 
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .form-box select {
+    padding: 5px;
+  }
+  
+  .form-box #cvv {
+    width: 25%;
+  }
+  
+  .cvv-info:link,
+  .cvv-info:visited {
+    color: inherit;
+    text-decoration: underline;
+  }
+  
+  .cvv-info:hover,
+  .cvv-info:active {
+    color: #5f7986;
+    text-decoration: none;
+  }
+  
+  .btn {
+    background-color: #4c616b;
+    border: none;
+    border-radius: 8px;
+    color: #eff2f3;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #5f7986;
+    transition: ease-out 0.1s;
+  }
+  
+  .footer-text {
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .form-box *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(139, 139, 107, 0.5);
+    border-radius: 8px;
+  }
+  .easypaisa-img{
+    width: 42%;
+    height: 50px;
+  }
+  .easypaisa-img1{
+    width: 20%;
+    height: 50px;
+  }
+  .easy-paisa-container{
+    margin-top: 50px;
+  }
+
+ .but1{
+   border-radius: 20px;
+   border-width: 20px;
+   border-color: rgb(255, 255, 255);
+   width: 170px;
+  height: 40px;
+  font-size: 17px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: transparent;
+ }
+
+.jazzcash img {
+  width: fit-content;
+}
+.easypaisa img{
+  width: min-content;
+}
+.close{
+  border: none;
+  width: 45px;
+  background-color: #4c616b;
+  border-radius: 5px;
+}
+.close1{
+  border: none;
+  width: 175px;
+  background-color: #4c616b;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+}
+.close span{
+  font-size: 25px;
+  color: white;
+}

@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="product.css">
+  <!-- link swipers -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <!-- cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+  <script src="https://kit.fontawesome.com/b63f19595b.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="app.js"></script>
+  <link rel="icon" type="image/x-icon" href="images/my logo.png">
+  <title>Shine Utensils</title>
+</head>
+ <style>
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-hover {
+    color: black;
+  }
+
+  .nav-hover:focus,
+  .nav-hover:hover {
+    color: #000;
+  }
+  /* Change navbar styling on scroll */
+.navbar.active {
+    background: white;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+}
+
+.navbar.active .nav-link {
+    color:#000;
+}
+.navbar.active .navbar-brand {
+    /* color: rgb(245, 235, 235); */
+    font-weight: 600;
+    font-size: 2vw;
+}
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-md fixed-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" data-aos="slide-right"><img src="images/my logo.png" alt="" class="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" data-aos="slide-up" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link nav-hover" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-hover" href="about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-hover" href="contactus.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-hover" href="comparision.html">Comparision</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link  nav-hover" href="#" role="button">
+              Categories
+            </a>
+            <ul class="dropdown-content">
+              <li><a class="dropdown-item" href="kitchentool.html">Kitchen Tools</a></li>
+              <li><a class="dropdown-item" href="ceramics.html">Ceramics</a></li>
+              <li><a class="dropdown-item" href="BBQ's.html">BBQ Items</a></li>
+              <li><a class="dropdown-item" href="Cutlery.html">Cutlery</a></li>
+              <li><a class="dropdown-item" href="baking.html">Baking Tools</a></li>
+            </ul>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+      <!-- Navbar Ends -->
+  
+  <div class="container d-flex justify-content-center text-center cards-section">
+    <h2 class="tool">KITCHEN TOOLS</h2>
+  </div>
+
+  <section>
+    <div class="swiper mySwiper container">
+      <div class=" swiper-wrapper content">
+        <div class="swiper-slide  card">
+          <img src="product images/9.jpg" class="card-img-top" alt="...">
+          <div class="card-body justify-content-center text-center">
+            <h5 class="card-title pt-3">TOOLS</h5>
+            <div class="about-card">
+              <p class="card-text"> Alessi Double Decorative Bowl, One size, black</p>
+              <span>PKR 5500 </span>
+              <div class="rating text-center justify-content-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="container justify-content-center d-flex">
+            <button class="card-button">
+              <a href="login.html" class="justify-content-center text-center">ADD TO CART</a>
+            </button>
+          </div>
+          <div class="justify-content-center text-center">
+            <a href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="swiper-slide  card">
+          <img src="product images/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body justify-content-center text-center">
+            <h5 class="card-title">TOOLS</h5>
+            <div class="about-card">
+              <p class="card-text">Stone Lain Detail Stoneware Dinnerware Set, 16-Piece Service for 4, Black color.</p>
+              <span>PKR 300 </span>
+              <div class="rating text-center justify-content-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="container justify-content-center d-flex">
+            <button class="card-button">
+              <a href="login.html" class="justify-content-center text-center">ADD TO CART</a>
+            </button>
+          </div>
+          <div class="justify-content-center text-center">
+            <a href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="swiper-slide  card">
+          <img src="product images/10.jpg" class="card-img-top pt-4" alt="...">
+          <div class="card-body justify-content-center text-center">
+            <h5 class="card-title pt-3">TOOLS</h5>
+            <div class="about-card">
+              <p class="card-text">
+                10 Strawberry Street Kitchen Canister Set, 3 Piece, Marquis Matte Black Piece, Black</p>
+              <span>PKR 600 </span>
+              <div class="rating text-center justify-content-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="container justify-content-center d-flex">
+            <button class="card-button">
+              <a href="login.html" class="justify-content-center text-center">ADD TO CART</a>
+            </button>
+          </div>
+          <div class="justify-content-center text-center">
+            <a href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="swiper-slide  card">
+          <img src="product images/11.jpg" class="card-img-top pt-5 pb-4" alt="...">
+          <div class="card-body justify-content-center text-center">
+            <h5 class="card-title pt-">TOOLS</h5>
+            <div class="about-card">
+              <p class="card-text">
+                ROSSO CAFFÈ Reserve- 3oz Sophisticated and Sturdy Black Ceramic Cup for Espresso. Condensation free and
+                Dishwasher safe…</p>
+              <span>PKR 8000 </span>
+              <div class="rating justify-content-center text-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="container justify-content-center d-flex">
+            <button class="card-button">
+              <a href="login.html" class="justify-content-center text-center">ADD TO CART</a>
+            </button>
+          </div>
+          <div class="justify-content-center text-center">
+            <a href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="swiper-slide  card">
+          <img src="product images/12.jpg" class="card-img-top" alt="...">
+          <div class="card-body justify-content-center text-center">
+            <h5 class="card-title pt-5">TOOLS</h5>
+            <div class="about-card">
+              <p class="card-text">
+                ESPRO P7 French Press - Double Walled Stainless Steel Insulated Coffee and Tea Maker (Matte Black, 32
+                Ounce).</p>
+              <span>PKR 500 </span>
+              <div class="rating text-center justify-content-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="container justify-content-center d-flex">
+            <button class="card-button">
+              <a href="login.html" class="justify-content-center text-center">ADD TO CART</a>
+            </button>
+          </div>
+          <div class="justify-content-center text-center">
+            <a href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        
+        <div class="swiper-slide  card">
+          <img src="product images/8acdcbde8a11a33ba2cf2de46a88659e.jpg" class="card-img-top " alt="...">
+          <div class="card-body justify-content-center text-center">
+            <h5 class="card-title pt-5">TOOLS</h5>
+            <div class="about-card">
+              <p class="card-text">Double Line 3.75"/12 oz Mug, Set of 6, Matte Black</p>
+              <span>PKR 690 </span>
+              <div class="rating text-center justify-content-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="container justify-content-center d-flex">
+            <button class="card-button">
+              <a href="login.html" class="justify-content-center text-center">ADD TO CART</a>
+            </button>
+          </div>
+          <div class="justify-content-center text-center">
+            <a href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="swiper-button-next pt-5"></div>
+  <div class="swiper-button-prev "></div>
+  <div class="swiper-pagination"></div>
+    <!-- footer starts -->
+    <footer class="fot">
+      <div class="row row1">
+          <div class="col-md-3 col-12" style="margin-top: -40px;">
+              <img src="./LOGO1.png" class="logo1">
+              <p>"The Kitchen appliances are an integral part of your Kitchen. Everyone always want to have quality Kitchen tools and highly aesyhetic. But where to find a pretty and product quality?
+                Come with us, our products will not let you down. And to match the current demand we created the site to help your purchasing easier then ever.
+                
+                "Think once,think twice,think Shine"
+                
+                Shine-brighten your Kitchen"</p>
+          </div>
+          <div class="col-md-3 col-12 mt-4 mt-md-0">
+              <h3 class="three">Office<div class="underline"><span class="eight"></span></div></h3>
+              <p>Aptech North Karachi Center<br/>
+                Address: A-563 Shahrah-e-Usman,<br/>
+                 Sector 11-A North Karachi, Karachi, 75850.<br/></p>
+              <p class="email-id">info-nk@aptech-education.com.pk</p>
+              <h5>+923402017679</h5>
+          </div>
+          <div class="col-md-3 col-12 mt-4 mt-md-0">
+              <h3 class="three">Categories<div class="underline"><span class="eight"></span></div></h3>
+              <ul class="two">
+                  <li class="one"><a href="kitchentool.html">Kitchen Tools</a></li>
+                  <li class="one"><a href="ceramics.html">Ceramics</a></li>
+                  <li class="one"><a href="BBQ's.html">BBQ Items</a></li>
+                  <li class="one"><a href="Cutlery.html">Cutlery</a></li>
+                  <li class="one"><a href="baking.html">Baking Tools</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3 col-12 mt-4 mt-md-0">
+              <h3 class="three">Newsletter<div class="underline"><span class="eight"></span></div></h3>
+              <br>
+              <button type="button" class="Fedback btn" data-bs-toggle="modal" data-bs-target="#feedback">Your Feedback</button>
+  
+              <div class="modal fade" id="feedback" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content background-1">
+            <div class="modal-body">
+                  <div class="text-end">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                  <form action="">
+                    <div class="input-box">
+                            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                            <input class="logininput" type="text" required>
+                            <label class="loginlabel" >Email</label>
+                        </div>
+                         <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                             <input class="logininput" type="password" required>
+                             <label class="loginlabel">Password</label>
+                         </div>
+                         <div class="remember-forgot">
+                            <label class="loginlabel"><input type="checkbox"> Remember</label>
+                            <a href="#" class="logina">Forgot Password?</a>
+                        </div>
+                        <button type="submit" class="button1" onclick="alert('You have successfully login')">Login</button>
+                        <div class="register-link">
+                           <p class="loginp">Don' have an account? <a class="logina" href="#" data-bs-toggle="modal" data-bs-target="#signup">Register</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+                           
+              <div class="social-icons">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-whatsapp"></i>
+                  <i class="fab fa-pinterest"></i>
+              </div>
+          </div>
+      </div>
+      <hr class="seven">
+      <p class="copyright">The Shine Utensils &copy; 2023 - All Right Reserved</p>
+  </footer></div>
+  
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+crossorigin="anonymous"></script>
+<!-- Swiper link -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="app.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 2000,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        // when window width is >= 100px
+        100: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 2,
+          spaceBetween: 30
+        },
+        // when window width is >= 640px
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 40
+        },
+        // when window width is >= 920px
+        920: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
+    });
+  </script>
+</body>
+
+</html>

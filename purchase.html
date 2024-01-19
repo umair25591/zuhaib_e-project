@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <style>
+        /* Your existing styles go here */
+    </style>
+</head>
+<body>
+
+<div id="payment-form">
+    <h2>Payment Details</h2>
+    <form id="payment-details-form">
+        <label for="account-number">Account Number:</label>
+        <input type="text" id="account-number" placeholder="Enter account number" required>
+
+        <label for="pin">PIN:</label>
+        <input type="password" id="pin" placeholder="Enter PIN" required>
+
+        <button type="button" id="submit-jazz-cash">Pay with Jazz Cash</button>
+        <button type="button" id="submit-easy-paisa">Pay with Easy Paisa</button>
+        <button type="button" id="submit-all-banks">Pay with All Banks</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#submit-jazz-cash").click(function () {
+            // Simulate Jazz Cash payment, you would replace this with the actual API integration
+            alert("Jazz Cash payment submitted successfully!");
+        });
+
+        $("#submit-easy-paisa").click(function () {
+            // Simulate Easy Paisa payment, you would replace this with the actual API integration
+            alert("Easy Paisa payment submitted successfully!");
+        });
+
+        $("#submit-all-banks").click(function () {
+            // Simulate All Banks payment, you would replace this with the actual API integration
+            var accountNumber = $("#account-number").val();
+            var pin = $("#pin").val();
+
+            // Validate input (you should perform more thorough validation in a real implementation)
+            if (accountNumber && pin) {
+                alert("All Banks payment submitted successfully!");
+            } else {
+                alert("Please enter valid a
